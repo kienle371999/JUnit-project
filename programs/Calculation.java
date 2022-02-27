@@ -16,9 +16,9 @@ public class Calculation {
         return number1 - number2;
     }
 
-    public Long divide(Long number1, Long number2) {
+    public Long divide(Long number1, Long number2) throws Exception {
         if (number2 == 0) {
-            return null;
+            throw new Exception("Invalid Division");
         }
 
         return number1 / number2;

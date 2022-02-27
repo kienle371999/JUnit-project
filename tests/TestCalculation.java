@@ -24,4 +24,14 @@ public class TestCalculation {
     public void testAdd() {
         Assert.assertEquals(Long.valueOf(5L), calculation.add(2L, 3L));
     }
+
+    @Test
+    public void testAdd2() {
+        try {
+            Assert.assertEquals(Long.valueOf(2L), calculation.divide(6L, 0L));
+        }
+        catch (Exception e) {
+            Assert.assertEquals("Invalid Division", e.getMessage());
+        }
+    }
 }
