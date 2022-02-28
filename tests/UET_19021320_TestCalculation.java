@@ -53,7 +53,7 @@ public class UET_19021320_TestCalculation {
 
     @Test
     public void testAdd6() {
-        Assert.assertEquals(Long.valueOf(2l), calculation.subtract(5L, 3L));
+        Assert.assertEquals(Long.valueOf(-1l), calculation.subtract(Long.MAX_VALUE(), Long.MIN_VALUE()));
     }
 
     @Test
