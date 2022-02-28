@@ -26,7 +26,7 @@ public class UET_18020455_TestCalculation {
 
     @Test
     public void testAdd() {
-        Assert.assertEquals(Long.valueOf(10L), calculation.add(9L, 1L));
+        Assert.assertEquals(Long.valueOf(10L), calculation.add(7L, 3L));
     }
 
     @Test
