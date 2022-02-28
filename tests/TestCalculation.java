@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 import programs.Calculation;
 
+// import junit.runner.After;
+
 public class TestCalculation {
 
     private Calculation calculation;
