@@ -58,6 +58,6 @@ public class UET_19021320_TestCalculation {
 
     @Test
     public void testAdd7() {
-        Assert.assertEquals(Long.valueOf(10), new Long[]{3, 5, 7, 9, 10, 10});
+        Assert.assertEquals(Long.valueOf(10), calculation.findMaximumNumber(Arrays.asList(3, 5, 7, 9, 10, 10))));
     }
 }
