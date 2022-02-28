@@ -29,37 +29,9 @@ public class TestCalculation {
     public void testAdd2() {
         try {
             Assert.assertEquals(Long.valueOf(2L), calculation.divide(6L, 0L));
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             Assert.assertEquals("Invalid Division", e.getMessage());
         }
-    }
-
-    @Test
-    public void testAdd3() {
-        Assert.assertEquals(Long.valueOf(10), calculation.add(Long.valueOf(4), Long.valueOf(6)));
-    }
-
-    @Test
-    public void testMultiply() {
-        Assert.assertEquals(Long.valueOf(6L), calculation.multiply(2L, 3L));
-    }
-
-    @Test
-    public void testSubtract() {
-        Assert.assertEquals(Long.valueOf(1L), calculation.subtract(3L, 2L));
-    }
-
-    @Test
-    public void testDivide() {
-        try {
-            Assert.assertEquals(Long.valueOf(2L), calculation.divide(6L, 3L));
-        } catch (Exception e) {
-            Assert.assertEquals("Invalid Division", e.getMessage());
-        }
-    }
-
-    @Test
-    public void testFindMaximumNumber() {
-        Assert.assertEquals(Long.valueOf(3L), calculation.findMaximumNumber(java.util.Arrays.asList(1L, 2L, 3L)));
     }
 }
