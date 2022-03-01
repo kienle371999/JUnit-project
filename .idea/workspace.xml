@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d373c921-3ac2-4817-bceb-130760184d02" name="Changes" comment="KienL - second version of project">
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/.idea/JUnit-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/lib/junit-4.13.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/programs/Calculation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JUnit-project/tests/TestCalculation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/UET_19021346_TestCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,10 +47,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.TestCalculation">
+  <component name="RunManager" selected="JUnit.test">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
       <module name="JUnit-project" />
@@ -71,6 +68,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestCalculation" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,19 +92,28 @@
     </configuration>
     <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestRunner" />
+      <item itemvalue="JUnit.test" />
+      <item itemvalue="JUnit.TestCalculation" />
+      <item itemvalue="JUnit.TestCalculation.testAdd" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test" />
         <item itemvalue="JUnit.TestCalculation" />
         <item itemvalue="Application.TestRunner" />
         <item itemvalue="JUnit.TestCalculation.testAdd" />
-        <item itemvalue="JUnit.test" />
       </list>
     </recent_temporary>
   </component>

@@ -6,8 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import programs.Calculation;
 
-public class TestCalculation {
-
+public class UET_19021346_TestCalculation {
     private Calculation calculation;
 
     @Before
