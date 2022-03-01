@@ -1,5 +1,7 @@
 package tests;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -48,6 +50,6 @@ public class UET_19021346_TestCalculation {
     @Test
     public void testFindMaximumNumber() {
         ArrayList<Long> arr = new ArrayList<Long>(Arrays.asList(1L, 5L, 2L, 10L));
-        Assert.assertEquals(Long.valueOf(10L), calculation.findMaximumNumber(arr);
+        Assert.assertEquals(Long.valueOf(10L), calculation.findMaximumNumber(arr));
     }
 }

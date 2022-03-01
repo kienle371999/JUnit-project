@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d373c921-3ac2-4817-bceb-130760184d02" name="Changes" comment="KienL - second version of project">
-      <change afterPath="$PROJECT_DIR$/tests/UET_19021346_TestCalculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UET_19021346_TestCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UET_19021346_TestCalculation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
