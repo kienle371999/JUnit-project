@@ -28,6 +28,7 @@ public class UET_19021268_TestCalculation {
     @Test
     public void testMultiply() {
         Assert.assertEquals(Long.valueOf(45L), calculation.multiply(15L, 3L));
+        Assert.assertEquals(Long.valueOf(0L), calculation.multiply(1467125L, 0L));
     }
 
     @Test
@@ -46,6 +47,6 @@ public class UET_19021268_TestCalculation {
 
     @Test
     public void testFindMaximumNumber() {
-        Assert.assertEquals(Long.valueOf(1249L), calculation.findMaximumNumber(java.util.Arrays.asList(0L, 1249L, 3L, 124L, 123)));
+        Assert.assertEquals(Long.valueOf(1249L), calculation.findMaximumNumber(java.util.Arrays.asList(0L, 1249L, 3L, 124L, 123L)));
     }
 }
